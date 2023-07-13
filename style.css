@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+:root {
+  --primary: #8ebbce;
+  --black: #041b15;
+  --head: #6e9cae;
+  --button: #6be6da;
+  --white: #ffffff;
+
+  --h1Size: 128px;
+  --h2Size: 32px;
+  --h3Size: 24px;
+  --h4Size: 14px;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Righteous', Inter, Helvetica;
+  background-color: var(--primary);
+  margin: 0px;
+}
+h1 {
+  color: var(--white);
+  font-size: var(--h1Size);
+  font-family: 'Righteous', Inter, Helvetica;
+
+}
+
+h2 {
+  color: var(--white);
+  font-size: var(--h2Size);
+  font-family: 'Righteous', Inter, Helvetica;
+}
+
+h3 {
+  color: var(--white);
+  font-size: var(--h3Size);
+  font-family: 'Righteous', Inter, Helvetica;
+}
+
+/* * {
+  border: 1px solid red;
+}*/
+
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 220px;
+  align-items: center;
+  padding-right: 80px;
+
+  position: sticky;
+  top: 0;
+  background-color: var(--head);
+  z-index: 9999;
+}
+li {
+  list-style: none;
+}
+a {
+  font-size: var(--h4Size);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.contact-me-btn {
+  color: var(--black);
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--button, #6BE6DA);
+}
+
+.contact-me-btn:hover{
+  color: var(--white);
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--black);
+}
+
+#home {
+  background-image: url("/images/p.jpg");
+  height: 670px;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+             
+}
+#home h1{
+  position: absolute;
+  left: 708px;
+  top: 126px;
+  bottom: 385px;
+  right: 131px;
+  margin: 0;
+  width: 601px;
+}
+#home h2{
+  position: absolute;
+  left:810px;
+  right:233;
+  top:285px;
+  bottom:312px;
+  margin: 0px;
+  width: 397px;
+  text-align: center;
+}
+#home a {
+
+  position: absolute;
+  left: 955px;
+  top: 393px; 
+  right: 378px;
+  bottom: 252px;
+  height: 18px;
+  width: 74.609px;
+  
+}
+
+#whoami {
+  display: flex;
+}
+
+#whoami h1{
+  width: 616px;
+  margin-left: 107px;
+  margin-top: 42px;
+  margin-bottom: 33px;
+  margin-right: 118px;
+}
+
+#whoami h2{
+  width: 487px;
+  margin-left: 165px;
+  margin-top: 33px;
+  margin-bottom: 336px;
+  margin-right: 189px;
+  text-align: center;
+}
+
+#Ciuta {
+  box-shadow: 20px 20px 4px 0px rgba(0, 0, 0, 0.18);
+
+  width: 561px;
+  height: 585px;
+  border-radius: 20px;
+
+  margin-left: 38px;
+  margin-top: 42px;
+  margin-bottom: 43px;
+}
+
+#mydreams {
+  width: 1440px;
+  height: 670px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/dreamss.jpg");
+}
+
+#dream {
+  display: flex;
+}
+#dream h2{
+  width: 678px;
+  margin-left: 97px;
+  margin-top: 61px;
+  margin-bottom: 22px;
+  margin-right: 146px;
+  text-align: left;
+}
+#dream h3{
+  width: 410px;
+  height: 80px;
+  margin-left: 97px;
+  margin-top: 22px;
+  margin-bottom: 446px;
+  margin-right: 310px;
+  text-align: left;
+}
+
+#Aro {
+  box-shadow: 20px 20px 4px 0px rgba(0, 0, 0, 0.18);
+
+  width: 577px;
+  height: 600px;
+  border-radius: 20px;
+
+  margin-left: 46px;
+  margin-top: 36px;
+  margin-bottom: 34px;
+}
+#education h1{
+  text-align: center;
+  
+}
+#schools {
+  display: flex;
+  flex-direction: center;
+}
+
+#CEIP {
+  background-image: url("images/montetoro.jpg");
+  background-position:center;
+  background-size:  cover;
+  border-radius: 8px;
+  width: 694px;
+  height: 622px;
+  margin: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+#IES {
+  background-image: url("images/macardona.jpg");
+  background-position:center;
+  background-size:  cover;
+  border-radius: 8px;
+  width: 694px;
+  height: 622px;
+  margin: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+}
+#text1 {
+  width: 519px;
+}
+#text2 {
+  width: 519px;
+}
+
+.visit {
+  font-family: 'Righteous';
+  font-size: var(--h4Size);
+  color: var(--black);
+  border-radius: 8px;
+  background: var(--button, #6BE6DA);
+  display: inline-flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.visit:hover{
+  font-family: 'Righteous';
+  font-size: var(--h4Size);
+  color: var(--white);
+  border-radius: 8px;
+  background: var(--black, #6BE6DA);
+  display: inline-flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+strong {
+  color: var(--primary);
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 80px;
+  gap: 24px;
+}
+#formulari {
+  border-radius: 8px;
+  background: #D9D9D9;
+}
+
+.input-span6 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.input-span12 {
+  display: grid;
+  flex-direction: column;
+  grid-column: span 2;
+  gap: 12px;
+}
+
+input {
+  height: 48px;
+  border-radius:  8px;
+  border: none;
+  background-color: #D9D9D9;
+}
+
+#message {
+  height: 80px;
+}
+#send-btn {
+  display: inline-flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--button, #6BE6DA);
+  color: var(--black);
+  border: none;
+  cursor: pointer;
+  font-family: "Righteous";
+
+}
+#send-btn:hover {
+  display: inline-flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--black, #6BE6DA);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  font-family: "Righteous";
+
+}
+#contact-me-section h2{
+  color: var(--black);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#foot {
+  display: flex;
+  height: fit-content;
+}
+
+#foot div {
+  
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  align-items: left;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 0;
+  padding-left: 40px;
+  padding-top: 51px;
+
+}
+#Biel {
+  margin: 0px
+}
+#mail {
+  margin: 0px;
+}
+
+#foot img{
+  display: flex;
+  margin-left: 46px;
+  padding-top: 20px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 52px;
+}
+
+
+
+header li:hover a {
+  color: var(--black);
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  font-family: 'Righteous', Inter, Helvetica;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1 {
+  font-size: 128px;
+  font-family: "Righteous";
+}
