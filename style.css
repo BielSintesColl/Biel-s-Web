@@ -265,6 +265,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  transition: background-color 0.3s ease;
 }
 .visit:hover{
   font-family: 'Righteous';
@@ -277,7 +278,6 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  transition: background-color 0.3s ease;
 }
 strong {
   color: var(--primary);
@@ -327,7 +327,7 @@ input {
   border: none;
   cursor: pointer;
   font-family: "Righteous";
-
+  transition: background-color 0.3s ease;
 }
 #send-btn:hover {
   display: inline-flex;
@@ -341,7 +341,6 @@ input {
   border: none;
   cursor: pointer;
   font-family: "Righteous";
-  transition: background-color 0.3s ease;
 }
 #contact-me-section h2{
   color: var(--black);
