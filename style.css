@@ -78,6 +78,7 @@ a {
   gap: 10px;
   border-radius: 8px;
   background: var(--button, #6BE6DA);
+  transition: background-color 0.3s ease;
 }
 
 .contact-me-btn:hover{
@@ -425,30 +426,7 @@ nav ul li a:hover::before {
 #Ciuta:hover {
   transform: translateX(20px);
 }
-.contact-me-btn {
-  position: relative;
-  transition: opacity 0.3s ease;
-}
 
-.contact-me-btn::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: var(--black);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.contact-me-btn:hover {
-  opacity: 0.8;
-}
-
-.contact-me-btn:hover::before {
-  opacity: 0;
-}
 
 
 
