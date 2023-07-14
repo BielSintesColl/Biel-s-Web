@@ -425,6 +425,13 @@ nav ul li a:hover::before {
 #Ciuta:hover {
   transform: translateX(20px);
 }
+#Aro {
+  transition: transform 0.3s ease;
+}
+
+#Aro:hover {
+  transform: translateX(-20px);
+}
 
 
 
